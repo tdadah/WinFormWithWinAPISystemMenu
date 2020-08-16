@@ -63,7 +63,7 @@ namespace WinFormWithWinAPISystemMenu
 		public const uint CALCULATOR_MENU_SEPARATOR = 1001;
 		public const uint LOCAL_MENU_ITEM_ID = 1002;
 		public const uint LOCAL_MENU_ITEM_SEPARATOR = 1003;
-		public const string MENU_ITEM_TEXT = "Code assesment";
+		public const string MENU_ITEM_TEXT = "Code assessment";
 
 		#endregion Local constants
 	}

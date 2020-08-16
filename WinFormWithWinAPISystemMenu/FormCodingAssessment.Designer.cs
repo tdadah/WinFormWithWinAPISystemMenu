@@ -34,29 +34,32 @@
 			// 
 			// InstructionsLabel
 			// 
+			this.InstructionsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.InstructionsLabel.AutoSize = true;
-			this.InstructionsLabel.Location = new System.Drawing.Point( 60, 48 );
+			this.InstructionsLabel.Location = new System.Drawing.Point(27, 40);
 			this.InstructionsLabel.Name = "InstructionsLabel";
-			this.InstructionsLabel.Size = new System.Drawing.Size( 624, 40 );
+			this.InstructionsLabel.Size = new System.Drawing.Size(718, 40);
 			this.InstructionsLabel.TabIndex = 0;
-			this.InstructionsLabel.Text = "Right click on the icon in the upper left hand corner next to \'Coding assesment\' to see syst" +
-	"em menu.\nClick on the button that says \'Code assesment\'.";
+			this.InstructionsLabel.Text = "Right click on the icon in the upper left hand corner next to \'Coding assessment\'" +
+    " to see system menu.\nClick on the button that says \'Code assessment\'.";
 			// 
 			// FindCalculatorBackgroundWorker
 			// 
-			this.FindCalculatorBackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler( this.FindCalculatorBackgroundWorker_DoWork );
+			this.FindCalculatorBackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.FindCalculatorBackgroundWorker_DoWork);
 			// 
 			// FormCodingAssessment
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF( 9F, 20F );
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size( 785, 412 );
-			this.Controls.Add( this.InstructionsLabel );
+			this.ClientSize = new System.Drawing.Size(785, 412);
+			this.Controls.Add(this.InstructionsLabel);
+			this.Icon = global::WinFormWithWinAPISystemMenu.Properties.Resources.TD;
 			this.Name = "FormCodingAssessment";
 			this.Text = "Coding assessment";
-			this.ResumeLayout( false );
+			this.ResumeLayout(false);
 			this.PerformLayout();
-			this.Icon = Properties.Resources.TD;
+
 		}
 
 		#endregion

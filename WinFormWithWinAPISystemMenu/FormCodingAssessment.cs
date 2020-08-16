@@ -46,7 +46,7 @@ namespace WinFormWithWinAPISystemMenu
 
 		#endregion Private methods
 
-		#region Protected metheods
+		#region Protected methods
 
 		protected override void OnClosing( CancelEventArgs e )
 		{

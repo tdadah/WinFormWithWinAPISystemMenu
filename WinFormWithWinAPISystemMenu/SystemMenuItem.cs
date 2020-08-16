@@ -42,7 +42,7 @@ namespace WinFormWithWinAPISystemMenu
 				wID = id
 			};
 
-			// Add a seperator and a new menu item before the last menu item, Close
+			// Add a separator and a new menu item before the last menu item, Close
 			WindowsApi.InsertMenuItem( systemMenuHandle, (uint)( count - 1 ), true /* fByPosition */, ref separator );
 			WindowsApi.InsertMenuItem( systemMenuHandle, (uint)( count - 1 ), true /* fByPosition */, ref menuItem );
 
