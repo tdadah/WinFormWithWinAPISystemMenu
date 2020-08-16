@@ -39,7 +39,7 @@
 			this.InstructionsLabel.Name = "InstructionsLabel";
 			this.InstructionsLabel.Size = new System.Drawing.Size( 624, 40 );
 			this.InstructionsLabel.TabIndex = 0;
-			this.InstructionsLabel.Text = "Right click on the icon in the upper left hand corner next to \'Form1\' to see syst" +
+			this.InstructionsLabel.Text = "Right click on the icon in the upper left hand corner next to \'Coding assesment\' to see syst" +
 	"em menu.\nClick on the button that says \'Code assesment\'.";
 			// 
 			// FindCalculatorBackgroundWorker
