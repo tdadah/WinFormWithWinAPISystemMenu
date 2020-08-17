@@ -14,6 +14,7 @@ The system menu item "Code assesment" is added to the Windows Form application u
 ## Calculator
 
 If the Windows Calculator application is already open or opened after the Coding Assessment application is already running, a menu item will be added to the Calculator's system menu.  This menu item does not do anything on click and is therefor disabled by default.  To make this work, a background worker was added to constantly check to see if the calculator application is open.  If the the calculator is open, the menu item is added.  This background worker continues to run so it also checks to see if the menu item has already been added so that the item is only added once.  Because the background worker is continuously running, if the calculator is closed and then opened again, the menu item will be added again.
+
 ![Calculator](Screenshots/Calculator.png?raw=true "Calculator")
 
 ## Known issues
